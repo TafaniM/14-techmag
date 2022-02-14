@@ -11,14 +11,20 @@ body {
   max-width: 320px;
   margin: auto;
   background: black;
+  font-weight: 400px;
 }
 
 .site-header {
-  background-image: url(https://picsum.photos);
-  background-size: 10%;
+  background-image: url('../img/fond-header.jpg');
+  background-size: 100%;
   background-position: bottom;
   color: white;
 }
+
+
+
+
+
 
 main {
   border-radius: 15px;
@@ -30,3 +36,26 @@ article {
   border: 15px solid black;
 }
 
+.presentation {
+
+}
+
+.article {
+  
+}
+
+.figure {
+  
+}
+
+.figcaption {
+  
+}
+
+footer {
+  
+}
+
+{
+  
+}
