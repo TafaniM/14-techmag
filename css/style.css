@@ -21,10 +21,10 @@ img {
 
 .site-header {
   background-image: url('../img/fond-header.jpg');
-  background-size: 100%;
+  background-size: 120%;
   background-position: bottom;
   color: white;
-  padding: 0px 30px;
+  padding: 0px 50px;
   border: 2px solid white;
   margin: 20px 0px;
 }
@@ -42,11 +42,6 @@ img {
   color: white;
   line-height: 20px;
 }
-
-
-
-
-
 
 main {
   margin: 20px 0px 0px;
@@ -110,6 +105,3 @@ footer {
 .article-time {
   color: gray;
 }
-
-
-/* {} */
