@@ -12,6 +12,11 @@ body {
   margin: auto;
   background: black;
   font-weight: 400px;
+  text-align: left;
+}
+
+img {
+  width: 220px;
 }
 
 .site-header {
@@ -19,6 +24,23 @@ body {
   background-size: 100%;
   background-position: bottom;
   color: white;
+  padding: 0px 30px;
+  border: 2px solid white;
+  margin: 20px 0px;
+}
+
+.site-header em {
+  color: #2afca6;
+  margin-top: 50px;
+}
+
+.site-header h1 {
+  color: white;
+}
+
+.site-header p {
+  color: white;
+  line-height: 20px;
 }
 
 
@@ -39,7 +61,7 @@ article {
 article h2 {
   background-color: white;
   padding: 20px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .presentation {
@@ -60,21 +82,34 @@ article h2 {
 }
 
 figure {
-  box-shadow: 2px gray;
+  margin: 30px;
+  box-shadow: 2px 2px 2px 2px gray;
+}
+
+figcaption {
+  margin: 5px;
+}
+
+.button {
+  padding: 0px 30px;
+  background-color: grey;
+  margin: 10px;
+  text-decoration: none;
+  color: white;
 }
 
 footer {
   border: 2px solid #2afca6;
-  margin-top: 15px;
+  margin: 15px 0px;
   height: 50px;
-}
-
-footer {
   text-align: center;
   color: white;
   margin-top: 20px;
 }
 
+.article-time {
+  color: gray;
+}
 
 
 /* {} */
